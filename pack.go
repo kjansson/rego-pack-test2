@@ -7,3 +7,8 @@ import "embed"
 //
 //go:embed PulumiPolicy.yaml pack.rego scp.rego
 var FS embed.FS
+
+// Checksum is the dirhash h1 checksum of the files in FS.
+//
+//go:embed CHECKSUM
+var Checksum string
