@@ -1,0 +1,8 @@
+{
+  "deny_missing_tags": {
+    "properties": {
+      "requiredTags": { "type": "array", "items": { "type": "string" } }
+    },
+    "required": ["requiredTags"]
+  }
+}

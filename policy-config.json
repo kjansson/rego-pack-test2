@@ -1,0 +1,7 @@
+{
+  "deny_missing_tags": {
+    "properties": {
+      "requiredTags": ["owner", "env", "cost-center"]
+    }
+  }
+}
